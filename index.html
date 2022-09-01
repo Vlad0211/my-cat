@@ -1,0 +1,32 @@
+<!-- Комментарии пишу над тегами к которым они могут относиться -->
+
+<!-- Говорит о том что это рассматривается как код хтмл -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Это говорит о кодировке файла -->
+        <meta charset="UTF-8">
+        <!-- Это говорит о том что файл будет преобразован для старых версий браузеров -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Эта строка говорит о том что сайт будет адаптирован под различные устройства -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Название вкладки -->
+        <title>My first site</title>
+        <!-- Тег для подключения доп файлов -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <!-- Существует 2 вида тегов - парные и непарные. Парные нужно закрывать (дублировать), а непарные можно только один раз открыть и этого достаточно -->
+    <body>
+        <div>
+            <h1>Мой пушистый кот</h1>
+            <!-- Сделать комментарий - ctrl+/ -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg" alt="cat" width="500">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate minima, eum aperiam quia repellendus quibusdam. Fugiat delectus sed dolores fuga exercitationem? Quae aliquid obcaecati suscipit facere reiciendis, dolor quod.
+            </p>
+            <button>Мяууу</button>
+        </div>
+        <!-- Так подключаем ЖС -->
+        <script src="./index.js"></script>
+    </body>
+</html>
